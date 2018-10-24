@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "hyperapp-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/tomoyaf/hyperapp-boilerplate",
@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "new": "rm -rf .git"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
